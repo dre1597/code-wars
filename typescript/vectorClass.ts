@@ -1,4 +1,7 @@
+// Sensei: https://www.codewars.com/users/eugene-bulkin
+
 /*
+
 Create a Vector object that supports addition, subtraction, dot products, and norms. So, for example:
 
 a = new Vector([1, 2, 3])

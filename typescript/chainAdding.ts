@@ -1,4 +1,7 @@
+// Sensei: https://www.codewars.com/users/gelus
+
 /*
+
 We want to create a function that will add numbers together when called in succession.
 
 add(1)(2); // == 3
@@ -24,6 +27,7 @@ addTwo(3); // == 5
 addTwo(3)(5); // == 10
 
 We can assume any number being passed in will be valid whole number.
+
 */
 
 export default function add(x: number): any {
