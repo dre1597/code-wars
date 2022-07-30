@@ -15,9 +15,7 @@ export function duplicateCount(text: string): number {
 
   for (let letter: number = 0; letter < ignoredCaseText.length; letter++) {
     if (letterCountMapping && letterCountMapping.has(ignoredCaseText[letter])) {
-      const count: number | undefined = letterCountMapping.get(
-        ignoredCaseText[letter]
-      );
+      const count: number | undefined = letterCountMapping.get(ignoredCaseText[letter]);
       if (count) {
         letterCountMapping.set(ignoredCaseText[letter], count + 1);
       }
