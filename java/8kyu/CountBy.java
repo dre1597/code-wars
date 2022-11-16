@@ -1,6 +1,6 @@
 // https://www.codewars.com/kata/5513795bd3fafb56c200049e
 
-public class Kata{
+public class CountBy {
   public static int[] countBy(int x, int n){
     int count = 0;
     int[] multiples = new int[n];
